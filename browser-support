@@ -1,0 +1,46 @@
+Browser Support
+What do we mean by support? Our goal is that users to get access to content and the main functions of the site. We test against key browsers and to ensure this is the case.
+
+Support does not mean that every browser will render the website in the exact same way. There are innumerable different configurations of browser, operating system, user settings and screen size for this goal to be unattainable and costly. We accept small variations in the website across different browsers.
+
+Two techniques we apply are Graceful Degradation and Progressive Enhancement:
+
+Graceful Degradation is allowing browsers to fallback to different visuals if the cost or difficulty of implementing the design will be great. An example of this is using Square Cornered boxes instead of Rounded Corners on older browsers. 
+
+Progressive Enhancement means to increase functionality if a browser can support X feature. An example of this is displaying a group of images as a carousel if Javascript is enabled.
+
+Support Levels
+Browsers are assigned one of 3 Graded levels of support. We have a standard table of support but browsers may be added or moved on a per project basis due to different needs and requirements. This must be discussed before development commences and need to be considered for the future of the project.
+A Grade
+A Grade is the highest level of support. We look to deliver an optimised experience and deliver enhanced functionality. The majority of end users should receive an A Grade experience. Typical features can include high resolution designs, animated elements, enhanced functionality and dynamically loaded content.
+
+A Grade browsers are placed on a whitelist. They are tested against during development and are used by the development team. They are modern and capable and any bugs raised will be given a high priority.
+
+Browser requirements: identified, whitelisted, tested against, modern
+
+B Grade
+B Grade is a low support level. We only identify browsers as B Grade if there is a high requirement for them but developing to usual standards is costly and more difficult. A browser can also be assigned B Grade if certain features or design elements can not be fully formed. In these cases we would use Graceful Degradation or provide a fallback.
+
+Browser requirements: identified, greylisted, partially tested against, outdated
+
+----------------
+Possibly remove
+C Grade
+C Grade is our base level of support. Browsers on C Grade are blacklisted and receive no enhanced functionality nor styles. This level of support is to make sure a certain browser can recieve content and nothing more.
+
+Browser requirements: identified, blacklisted and not support key features
+
+-------------------
+
+
+X Grade
+Most browsers will fall under X Grade support, however the total combination usage of all these browsers will be much lower than most A Grade browsers. These browsers are usually unidentified, fringe, outdated or development has ceased.
+
+QA does not test against these browsers and issues raised with them will be given a much lower priority. These browsers are given every chance to have an A Grade experience. If the experience is missing key features we can move it to the C Grade.
+
+A consideration of X Grade Browsers is that any new browsers and versions will be X Grade by default. They can be moved into A Grade once the browser has been adopted by users.
+
+Browser requirements: any browser not tested against
+
+Note:
+We want most users to be having an A Grade experience. A and B Grade Browsers are what gets tested against but B Grade gets tested against less frequently. C and X do not get tested against.
