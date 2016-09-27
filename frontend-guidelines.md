@@ -4,9 +4,9 @@ These Guidelines have been created to help alleviate some of the problems with m
 
 ##Our main goals are:
 
-Maintainability
-Transparency and Readability
-Scalability
+- Maintainability
+- Transparency and Readability
+- Scalability
 
 ##Class Naming - Custom BEM
 
